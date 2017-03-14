@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/public":{"guestpath":"/var/www/public","hostpath":"/Users/leoribeiro/Workspace/Study/study_section/1-simple_gallery/public","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/leoribeiro/Workspace/Study/study_section/1-simple_gallery","disabled":false,"__vagrantfile":true}}}
