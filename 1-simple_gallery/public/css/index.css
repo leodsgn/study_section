@@ -6,6 +6,7 @@
 body {
     background-color: #eee;
     width: 100%;
+    max-width: 100%;
 }
 
 header {
@@ -37,10 +38,36 @@ header nav ul{
 
 header nav ul li a {
     color: #fff;
+    padding: 20px;
+}
+
+.active {
+    background-color: #222;
 }
 
 header nav ul li a:hover,
 header nav ul li a:focus,
 header nav ul li a:active {
     color: #ddd;
+}
+
+.gallery {
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.gallery img {
+    margin: 5px
 }
